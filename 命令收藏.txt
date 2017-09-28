@@ -1,0 +1,13 @@
+1. wc  -c xxx.txt                                         -------> 统计字节数
+2. wc  -l  xxx.txt                   				      -------> 统计行数
+3. wc  -w xxx.txt                  					      -------> 统计单词数
+4. sed -i '1,5d'  xxx.txt         					      -------> 删除文件前五行    -i将结果写入文件
+5. sed -i 's/111/222/g'  xxx.txt                          -------> 将文件中的所有111替换为222  g表示全局   -i将结果写入文件
+6. file xxx.xx						                      -------> 查看文件类型  
+7. tar -cvf my.tar 1.txt tmp			                  -------> 创建归档文件
+8. tar -vxf my.tar									      -------> 解归档文件
+9. which echo 										      -------> 查看命令的文件路径
+10.sudo ln -s /absolutely/path /usr/local/bin/command     -------> 将脚本或者命令以软链接的方式加到/usr/local/bin/下				
+
+
+
