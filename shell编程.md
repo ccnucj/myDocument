@@ -176,4 +176,14 @@
     $1～$n   添加到Shell的各参数值。$1是第1参数、$2是第2参数…。 
     ```
 
+12. 利用sed 互相转换  LF 和 CRLF
+
+    ```
+    LF-->CRLF
+    sed -i 's/$/\r/g' file
+
+    CRLF-->LF
+    sed -i 's/\r//g' file
+    ```
+
     ​
