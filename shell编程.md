@@ -186,4 +186,4 @@
     sed -i 's/\r//g' file
     ```
 
-    ​
+13. 文本选取的几个命令  cut、awk、sort
